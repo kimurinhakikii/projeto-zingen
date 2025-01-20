@@ -8,14 +8,14 @@
   & .card {
     position: relative;
     overflow: hidden;
-    
+
     & img.desktop-only {
       position: absolute;
       max-width: 15rem;
       filter: drop-shadow(1rem 1rem 4rem rgb(0 0 0 / 0.34));
-    } 
+    }
   }
-  
+
   & .card:nth-child(1) {
     grid-column: 1/2;
   }
